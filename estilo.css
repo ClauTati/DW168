@@ -1,0 +1,188 @@
+
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*MENU*/
+#collapsibleNavbar, .container-fluid{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    justify-content: right;
+    
+    
+    
+}
+
+.nav-link, .collapseNavbar-collapse {
+    margin-left: -10px;
+    margin-right: 80px;
+    color: white;
+    font-size: 25px;
+}
+
+.tit h1{
+    margin: 50px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+.img {
+    width: 150px;
+    height: 75px;
+}
+
+
+
+.seccionUno h1  {
+        text-align: center;
+        font-size: 2em;
+
+        
+    
+    }
+
+    .seccionDos {
+        display: flex;
+        align-items:stretch;
+        margin: 70px;
+        padding: 50px;
+        font-size: 25px;   
+    }
+
+.titulo {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+        
+}
+
+/*Lugares destacados*/
+
+.prueba{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.card {
+    margin:0 auto;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px;
+}
+
+
+/*FORMULARIO*/
+.cuerpo {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid 3px black;
+    box-shadow: 3px 4px 6px black;
+    background-image:url(./imagen/fondoform.jpg);
+}
+
+.envoltorio form{
+    
+    width: 50%;
+    border-radius:5px;
+    padding: 80px;
+  
+    
+}
+.imgLogo{
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.contorno{
+    border-radius: 20px;
+    border-color: black;
+    
+}
+.row {
+    padding: 10px 15px;
+    font-size: 25px;
+}
+.input{
+    padding: 10px 5px;
+    
+}
+#submit_button {
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background-color: rgb(15, 15, 15);
+    color: white;
+} 
+
+
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 120px;
+    width: 90%;
+    margin-top: 40px;
+
+}
+
+
+
+.containerpag{
+   display: flex;
+   justify-content: space-between;
+  }
+.rowPie{
+      width: 500%;
+      border-top:solid 1px;
+}
+
+.boxpag{
+     
+   margin-top: -25px;
+}
+.boxpag a:hover{
+   opacity: 1;
+   
+}
+.boxpag a{
+font-size: 15px;   
+text-decoration: none;
+color: black; 
+}
+form .btns input {
+   border-radius: 10px;
+   border: none;
+   padding: 5px 15px;
+   color: white;
+   
+}
+form .btns input[type="submit"] {
+   background-color: rgb(15, 15, 15);
+ font-size: 16px;
+ 
+ 
+}
